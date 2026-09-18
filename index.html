@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Jisung Yoo, Senior Research Scientist at NAVER LABS. Research in large-scale 3D reconstruction, neural rendering, and generative priors for 3D.">
+  <meta name="description" content="Jisung Yoo, Senior Research Scientist at NAVER LABS. Large-scale 3D reconstruction, neural rendering, and Generative 3D for real-world environments.">
   <title>Jisung Yoo · 3D Vision Research</title>
   <link rel="canonical" href="https://jisung3d.github.io/">
   <meta property="og:type" content="website">
@@ -30,43 +30,91 @@
 <header class="site-header"><a class="wordmark" href="#home">Jisung Yoo <span>유지성</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav></header>
 <main id="home">
   <section class="intro" aria-labelledby="name">
-    <div><p class="eyebrow">3D COMPUTER VISION</p><h1 id="name">Jisung Yoo</h1><p class="position">Senior Research Scientist <span>@ NAVER LABS</span></p><p class="lead">3D Reconstruction · Neural Rendering · Generative 3D</p><p>I am a Senior Research Scientist at NAVER LABS, working on large-scale 3D reconstruction and novel-view synthesis for real-world environments. I have contributed to NAVER Map Street View 3D and FlyingView 3D, as well as reconstruction for city-scale digital twins and media/VFX applications. My current research explores how generative models and feed-forward 3D representations can complement geometric reconstruction and neural rendering.</p><p>Before joining NAVER LABS in 2022, I worked at Samsung Electronics and Samsung Research on mobile AR, computational photography, and 3D content creation. At Samsung Research, I led an incubation team exploring AR/VR experiences. I received my Ph.D. in Electrical Engineering from KAIST in 2018, with doctoral research on interactive 3D reconstruction using RGB-D cameras.</p><div class="inline-links"><a href="assets/Jisung_Yoo_Resume_2026.pdf">Resume [PDF]</a><a href="assets/Jisung_Yoo_CV_2026.pdf">Full CV [PDF]</a><a href="https://scholar.google.co.kr/citations?user=WkfzxM8AAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.linkedin.com/in/jisung-yoo-7b340662">LinkedIn</a><a href="mailto:jisung.lucas.yoo@gmail.com">Email</a></div></div>
+    <div class="intro-heading">
+      <p class="eyebrow">3D COMPUTER VISION</p>
+      <h1 id="name">Jisung Yoo</h1>
+      <p class="position">Senior Research Scientist <span>@ NAVER LABS</span></p>
+      <p class="lead">3D Reconstruction · Neural Rendering · Generative 3D</p>
+      <div class="inline-links"><a href="assets/Jisung_Yoo_Resume_2026.pdf">Resume [PDF]</a><a href="assets/Jisung_Yoo_CV_2026.pdf">Full CV [PDF]</a><a href="https://scholar.google.co.kr/citations?user=WkfzxM8AAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.linkedin.com/in/jisung-yoo-7b340662">LinkedIn</a><a href="mailto:jisung.lucas.yoo@gmail.com">Email</a></div>
+    </div>
     <img class="portrait" src="assets/portrait.jpg" alt="Jisung Yoo" width="266" height="355">
+    <div class="biography">
+      <p>I am a Senior Research Scientist at NAVER LABS, working on large-scale 3D reconstruction and neural rendering for real-world environments. My work has contributed to <strong>NAVER Map Street View 3D</strong> and <strong>Flying View 3D</strong>, as well as city-scale digital twin reconstruction and novel-view synthesis for media and VFX.</p>
+      <p>My current research focuses on <strong>extending 3D reconstruction and novel-view synthesis beyond the original capture trajectory</strong>, particularly to poorly observed regions and viewpoints. I am exploring 3D Gaussian Splatting, generative video/3D models, and feed-forward 3D reconstruction models, with an emphasis on preserving geometric, appearance, and multi-view consistency as reconstructed scenes are extended.</p>
+      <p>Before joining NAVER LABS in 2022, I worked at Samsung Electronics and Samsung Research on mobile AR, computational photography, and 3D content creation. I received my Ph.D. in Electrical Engineering from KAIST in 2018, where my research focused on interactive 3D reconstruction using RGB-D and multi-view imagery.</p>
+    </div>
   </section>
 
   <section id="work" aria-labelledby="work-heading">
-    <div class="section-heading"><h2 id="work-heading">Selected work</h2><span>NAVER LABS</span></div>
+    <div class="section-heading"><h2 id="work-heading">Selected Work</h2><span>NAVER LABS</span></div>
     <div class="work-grid">
-      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/MG3cO70XGd0" title="NAVER Map FlyingView 3D — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">CITY-SCALE NOVEL VIEW SYNTHESIS</p><h3>NAVER Map FlyingView 3D</h3><p>City-scale novel-view synthesis combines street-view and aerial/drone observations. Scalable reconstruction, alignment, and rendering support exploration of urban scenes in NAVER Map.</p><p class="role">Core contributor · Novel-view synthesis</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34089">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=MG3cO70XGd0">Watch on YouTube ↗</a></article>
-      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/E2NV9gotpDA" title="NAVER Map Street View 3D — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">RECONSTRUCTION &amp; VISUALIZATION</p><h3>NAVER Map Street View 3D</h3><p>I contributed to the core 3D reconstruction and rendering technology behind NAVER Map Street View 3D. The reconstructed geometry supports street-view visualization and spatially consistent navigation.</p><p class="role">Core contributor · Reconstruction &amp; rendering</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34058">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=E2NV9gotpDA">Watch on YouTube ↗</a></article>
-      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/PWK4Ir7qV8U" title="Novel View Synthesis for Media and VFX — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">REAL-WORLD SCENES BEYOND MAPPING</p><h3>Novel View Synthesis for Media &amp; VFX</h3><p>Reconstruction of real-world urban scenes enables novel-view rendering for media and visual effects. This work extends large-scale mapping technology to screen production.</p><p class="role">Core contributor · Novel-view synthesis</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34084">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=PWK4Ir7qV8U">Watch on YouTube ↗</a></article>
+      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/MG3cO70XGd0" title="NAVER Map Flying View 3D — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">CITY-SCALE NOVEL VIEW SYNTHESIS</p><h3>NAVER Map Flying View 3D</h3><p>Large-scale novel-view synthesis for urban environments using heterogeneous observations, including street-view and aerial/drone imagery. The pipeline combines scalable reconstruction, alignment, and rendering to enable free-viewpoint exploration of real-world scenes in NAVER Map.</p><p class="role">Core contributor · Novel-view synthesis</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34089">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=MG3cO70XGd0">Watch on YouTube ↗</a></article>
+      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/E2NV9gotpDA" title="NAVER Map Street View 3D — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">LARGE-SCALE 3D RECONSTRUCTION &amp; VISUALIZATION</p><h3>NAVER Map Street View 3D</h3><p>Large-scale mapping data is reconstructed into spatially consistent 3D representations for NAVER Map Street View 3D, supporting seamless exploration and spatial information visualization across real-world environments.</p><p class="role">Core contributor · 3D reconstruction &amp; rendering</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34058">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=E2NV9gotpDA">Watch on YouTube ↗</a></article>
+      <article class="work-item"><iframe src="https://www.youtube-nocookie.com/embed/PWK4Ir7qV8U" title="Novel View Synthesis for Media and VFX — official NAVER LABS video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="eyebrow">REAL-WORLD SCENES BEYOND MAPPING</p><h3>Novel View Synthesis for Media &amp; VFX</h3><p>Large-scale reconstruction and novel-view synthesis were extended beyond mapping to media and visual-effects applications, enabling controllable virtual viewpoints in reconstructed real-world urban scenes.</p><p class="role">Core contributor · Novel-view synthesis</p><a class="text-link" href="https://www.naverlabs.com/en/blogDetail?seq=34084">NAVER LABS article ↗</a><a class="text-link secondary-link" href="https://www.youtube.com/watch?v=PWK4Ir7qV8U">Watch on YouTube ↗</a></article>
     </div>
-    <details class="live-demos"><summary><span>Explore FlyingView 3D in NAVER Map</span><span class="count">10 locations</span></summary><p>Desktop: open a location, hover over its map marker, then click the video preview. Mobile: open the location and play the video at the top of its place page.</p><div class="places">
+    <details class="live-demos"><summary><span>Explore Flying View 3D in NAVER Map</span><span class="count">10 locations</span></summary><p>Desktop: open a location, hover over its map marker, then click the video preview. Mobile: open the location and play the video at the top of its place page.</p><div class="places">
       <a href="https://map.naver.com/p/entry/place/12758193?c=15.00,0,0,3,dh&amp;extraMode=immersive">NAVER 1784 <span>성남</span></a><a href="https://map.naver.com/p/entry/place/11576171?c=13.36,0,0,3,dh&amp;extraMode=immersive">COEX <span>서울</span></a><a href="https://map.naver.com/p/entry/place/18999839?c=13.00,0,0,3,dh&amp;extraMode=immersive">Yeouido <span>서울</span></a><a href="https://map.naver.com/p/entry/place/20118926?c=15.00,0,0,3,dh&amp;extraMode=immersive">Songdo Central Park <span>인천</span></a><a href="https://map.naver.com/p/entry/place/13491459?c=13.59,0,0,3,dh&amp;extraMode=immersive">Suwon Hwaseong Fortress <span>수원</span></a><a href="https://map.naver.com/p/entry/place/13208779?c=15.00,0,0,3,dh&amp;extraMode=immersive">Jeonju Hanok Village <span>전주</span></a><a href="https://map.naver.com/p/entry/place/13491979?c=15.00,0,0,3,dh&amp;extraMode=immersive">Bomun Tourist Complex <span>경주</span></a><a href="https://map.naver.com/p/entry/place/13491139?c=15.00,0,0,3,dh&amp;extraMode=immersive">Gyeongju Historic Areas <span>경주</span></a><a href="https://map.naver.com/p/entry/place/13491921?c=15.00,0,0,3,dh&amp;extraMode=immersive">Haeundae <span>부산</span></a><a href="https://map.naver.com/p/entry/place/13508237?c=15.00,0,0,3,dh&amp;extraMode=immersive">Centum City <span>부산</span></a>
     </div></details>
   </section>
 
   <section id="research" class="research" aria-labelledby="research-heading">
-    <h2 id="research-heading">Research interests</h2>
+    <h2 id="research-heading">Research Interests</h2>
     <div class="research-grid">
-      <div><span class="field-number">01</span><h3>3D Reconstruction</h3><ul><li>Multi-view geometry &amp; visual SLAM</li><li>Dense point-cloud &amp; mesh reconstruction</li><li>City-scale scene reconstruction</li></ul></div>
-      <div><span class="field-number">02</span><h3>Neural Rendering</h3><ul><li>Novel-view synthesis</li><li>3D Gaussian Splatting</li><li>Feed-forward 3D representations</li></ul></div>
-      <div><span class="field-number">03</span><h3>Generative 3D</h3><ul><li>Video &amp; 3D priors for reconstruction</li><li>Scene completion &amp; refinement</li><li>View synthesis beyond capture trajectories</li></ul></div>
+      <div><span class="field-number">01</span><h3>3D Reconstruction</h3><ul><li>Multi-view geometry &amp; visual SLAM</li><li>Dense point-cloud &amp; mesh reconstruction</li><li>Large-scale / city-scale scene reconstruction</li></ul></div>
+      <div><span class="field-number">02</span><h3>Neural Rendering</h3><ul><li>Novel-view synthesis</li><li>3D Gaussian Splatting</li><li>Large-scale free-viewpoint rendering</li></ul></div>
+      <div><span class="field-number">03</span><h3>Generative 3D</h3><ul><li>Generative video &amp; 3D priors</li><li>Feed-forward 3D reconstruction</li><li>Scene extension &amp; refinement beyond captured viewpoints</li></ul></div>
     </div>
-    <div class="current"><div><p class="eyebrow">CURRENT RESEARCH</p><h3>Generative Priors for 3D Reconstruction</h3><span class="status">Ongoing research</span></div><p>I am exploring how priors from existing generative video and 3D models can refine incomplete 3D Gaussian Splatting reconstructions. The focus is on poorly observed regions and views beyond the capture trajectory, such as pedestrian-level and aerial views of scenes reconstructed from street-view imagery. The aim is to improve geometry and appearance while keeping the results consistent across views.</p></div>
+    <div class="current">
+      <div><p class="eyebrow">CURRENT RESEARCH</p><h3>Extending 3D Reconstruction Beyond Captured Viewpoints</h3><span class="status">Ongoing research</span></div>
+      <div class="current-copy">
+        <p>I am exploring methods that combine <strong>3D Gaussian Splatting, generative video/3D models, and feed-forward 3D reconstruction</strong> to extend reconstructed scenes toward regions and viewpoints that are weakly observed or absent from the original capture trajectory.</p>
+        <p>A key focus is maintaining geometry, appearance, and multi-view consistency as the scene is extended, particularly in large-scale outdoor environments where observations can be sparse and strongly biased toward specific camera trajectories.</p>
+      </div>
+    </div>
   </section>
 
   <section id="experience" aria-labelledby="experience-heading">
     <h2 id="experience-heading">Experience</h2>
-    <article class="experience-row"><div><h3>NAVER LABS</h3><p>Senior Research Scientist</p><span class="date">Feb 2022–Present</span></div><ul><li>Core contributor to NAVER Map Street View 3D and city-scale novel-view synthesis used in FlyingView 3D and media/VFX applications.</li><li>Contributed dense point clouds and meshes from multi-view stereo (MVS), along with 3DGS scene reconstructions, to city-scale digital twin projects.</li><li>Current research on generative priors for 3D reconstruction and novel-view synthesis.</li></ul></article>
-    <article class="experience-row"><div><h3>Samsung Research</h3><p>Creative Leader</p><span class="date">Jan 2021–Jan 2022</span></div><ul><li>Led an incubation team exploring new AR/VR experiences.</li><li>Developed prototypes for photorealistic 3D content creation from smartphone images, animatable 3D avatars, and interactive 3D photos.</li><li>Combined technical prototyping with exploration of potential services and business models.</li></ul></article>
-    <article class="experience-row"><div><h3>Samsung Electronics</h3><p>Staff Engineer</p><span class="date">Mar 2018–Dec 2020</span></div><ul><li><strong>QuickMeasure:</strong> ToF-based AR measurement for Galaxy S10 5G.</li><li><strong>My Filters:</strong> photo-filter style transfer for Galaxy S20; related ECCV 2020 Spotlight paper.</li><li><strong>Photo Remaster:</strong> on-device automatic photo enhancement, subsequently commercialized on Galaxy S21.</li></ul></article>
+    <article class="experience-row">
+      <div><h3>NAVER LABS</h3><p>Senior Research Scientist</p><span class="date">Feb 2022–Present</span></div>
+      <div class="experience-details">
+        <p>Research and develop large-scale 3D reconstruction, neural rendering, and generative 3D technologies for real-world environments.</p>
+        <ul>
+          <li>Core contributor to the large-scale reconstruction and rendering technology behind <strong>NAVER Map Street View 3D</strong>.</li>
+          <li>Core contributor to city-scale novel-view synthesis, including technology used in <strong>NAVER Map Flying View 3D</strong> and media/VFX applications.</li>
+          <li>Contributed MVS-based dense point-cloud and mesh reconstruction, as well as 3DGS-based scene reconstruction, to city-scale digital twin pipelines.</li>
+          <li>Current research focuses on extending 3D reconstruction and novel-view synthesis beyond captured viewpoints using 3D Gaussian Splatting, generative video/3D models, and feed-forward 3D reconstruction, while preserving geometric and multi-view consistency.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="experience-row">
+      <div><h3>Samsung Research</h3><p>Creative Leader</p><span class="date">Jan 2021–Jan 2022</span></div>
+      <div class="experience-details">
+        <p>Led an incubation team exploring next-generation AR/VR experiences and new services based on photorealistic 3D content creation.</p>
+        <ul>
+          <li>Prototyped systems that combined AI and 3D computer vision to create and experience photorealistic 3D content from smartphone imagery.</li>
+          <li>Explored animatable 3D avatars from single images and interactive 3D photos from smartphone image sequences.</li>
+          <li>Worked across technical prototyping, user experience, and early service/business-model exploration.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="experience-row">
+      <div><h3>Samsung Electronics</h3><p>Staff Engineer</p><span class="date">Mar 2018–Dec 2020</span></div>
+      <div class="experience-details">
+        <p>Developed and productized computer vision, mobile AR, and computational photography technologies for Samsung Galaxy devices.</p>
+        <ul>
+          <li><strong>QuickMeasure</strong> — Developed core ToF-based AR measurement technologies, commercialized on the Galaxy S10 5G.</li>
+          <li><strong>My Filters</strong> — Developed photo-filter style-transfer technology, commercialized on the Galaxy S20 series; related work published as an <strong>ECCV 2020 Spotlight</strong> paper.</li>
+          <li><strong>Photo Remaster</strong> — Developed an on-device automatic photo-enhancement pipeline covering degradation detection, enhancement, and result recommendation, subsequently commercialized on the Galaxy S21 series.</li>
+        </ul>
+      </div>
+    </article>
     <div class="product-notes"><article><h3>QuickMeasure</h3><p>Measure object dimensions using a smartphone’s ToF sensor.</p><a href="https://www.youtube.com/watch?v=hYufQmmnie8">Official Note10+ demonstration ↗</a><a href="https://news.samsung.com/global/how-to-use-ar-on-the-galaxy-s10-to-find-the-perfect-appliances-for-your-home">Galaxy S10 5G feature article ↗</a></article><article><h3>My Filters</h3><p>Create camera filters from the color and tone of reference photos.</p><a href="https://arxiv.org/abs/2007.07925">ECCV 2020 Spotlight paper ↗</a></article><article><h3>Photo Remaster</h3><p>On-device enhancement of existing photos in Samsung Gallery.</p><a href="https://news.samsung.com/global/video-galaxy-s21-tech-talk-9-gallery-and-photo-editor">Samsung’s 2021 feature overview ↗</a></article></div>
     <div class="foundation"><h3>Research foundation · KAIST</h3><p>Ph.D. in Electrical Engineering, 2018. Doctoral research focused on visual SLAM and 3D reconstruction from RGB-D and multi-view imagery.</p></div>
   </section>
 
   <section id="publications" aria-labelledby="publications-heading">
-    <div class="section-heading"><h2 id="publications-heading">Publications</h2><a href="https://scholar.google.co.kr/citations?user=WkfzxM8AAAAJ&amp;hl=en">Google Scholar ↗</a></div>
+    <div class="section-heading"><h2 id="publications-heading">Selected Publications</h2><a href="https://scholar.google.co.kr/citations?user=WkfzxM8AAAAJ&amp;hl=en">Google Scholar ↗</a></div>
     <article class="paper featured-paper"><a class="paper-figure" href="https://arxiv.org/abs/2007.07925"><img src="assets/filter-style-transfer.jpg" alt="Examples of photo filter style transfer from the original publication" loading="lazy"></a><div><span class="venue spotlight">ECCV 2020 · Spotlight</span><h3><a href="https://arxiv.org/abs/2007.07925">Filter Style Transfer between Photos</a></h3><p>Jonghwa Yim, <strong>Jisung Yoo*</strong>, Won-Joon Do, Beomsu Kim, and Jihwan Choe</p><p class="paper-detail">*Corresponding author</p><a class="text-link" href="https://arxiv.org/abs/2007.07925">Paper ↗</a></div></article>
     <article class="paper"><a class="paper-figure" href="https://www.mdpi.com/1424-8220/20/18/5102"><img src="assets/hdr.jpg" alt="Pyramid inter-attention network for high dynamic range imaging" loading="lazy"></a><div><span class="venue">Sensors · 2020</span><h3><a href="https://www.mdpi.com/1424-8220/20/18/5102">Pyramid Inter-Attention for High Dynamic Range Imaging</a></h3><p>Sungil Choi, Jaehoon Cho, Wonil Song, Jihwan Choe, <strong>Jisung Yoo</strong>, and Kwanghoon Sohn</p><p class="paper-detail">20(18):5102</p><a class="text-link" href="https://www.mdpi.com/1424-8220/20/18/5102">Paper ↗</a></div></article>
     <article class="paper"><a class="paper-figure" href="https://www.sciencedirect.com/science/article/abs/pii/S0923596516301655"><img src="assets/run-length.jpg" alt="Object reconstruction examples using run-length representation" loading="lazy"></a><div><span class="venue">Signal Processing: Image Communication · 2017</span><h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S0923596516301655">Image-based object reconstruction using run-length representation</a></h3><p>Sung Soo Hwang, Hee-Dong Kim, Tae Young Jang, <strong>Jisung Yoo</strong>, Sujung Kim, Kyunghyun Paeng, and Seong Dae Kim</p><p class="paper-detail">51:1–12</p><a class="text-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0923596516301655">Paper ↗</a></div></article>
