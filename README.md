@@ -4,15 +4,17 @@ Static HTML/CSS portfolio at https://jisung3d.github.io/. No build step, analyti
 
 Open `index.html` locally. Official YouTube players need an internet connection. All paper figures were recovered from the existing public homepage; retain original attribution and replace these preview-resolution figures with the original image files if available.
 
-Content order: biography with Resume/CV links → selected NAVER work and ten live links → grouped research interests and current research → experience → all six publications → public 2026 Resume/CV and contact.
+Content order: biography with public 2026 Resume/CV and contact links → selected NAVER work and ten live links → grouped research interests and current research → experience → all six publications → Awards & Honors. The duplicate document/contact section at the bottom has been removed.
 
 Validation completed: all six publication entries, ten NAVER Map destinations, three official NAVER video embeds, local image/PDF references, and internal anchors are present. The PDF files match the supplied latest public 2026 Resume/CV exactly.
 
-Browser layout and video playback review is still pending. Some figures are preview-resolution captures from the original public homepage.
+The September 18, 2026 revision aligns the biography, project descriptions, research interests, and experience with the owner's approved positioning: 3D Reconstruction · Neural Rendering · Generative 3D. Official service names are NAVER Map Street View 3D and NAVER Map Flying View 3D. Current work aims to extend reconstructed real-world scenes for visual simulation along diverse trajectories beyond the original capture paths, targeting robotics and autonomous driving. Connecting persistent 3D scene representations to world models is presented as a longer-term research interest, not an already delivered capability.
+
+Review coverage for this revision: source checks preserve every existing link and local asset, including all six publications, three official video embeds, ten map destinations, and the exact public Resume/CV files. Static document renders were inspected at desktop and narrow mobile widths. These renders do not execute scripts or videos and are not a substitute for browser testing. The review browser's URL policy blocked the local preview, so interactive browser layout, live video playback, and NAVER Map behavior remain unverified. Some paper figures are preview-resolution captures from the original public homepage.
 
 NAVER Map links were supplied by the owner; direct playback was unavailable in the review browser.
 
-GitHub Pages publishes the root folder from `main` using the repository's existing configuration. On September 15, 2026, the owner authorized publishing this version and continuing updates directly on `main` for live review. No additional deployment workflow is needed. Relative asset URLs support local preview and GitHub Pages.
+GitHub Pages publishes the root folder from `main` using the repository's existing configuration. The owner reviewed the draft and explicitly approved publication on September 18, 2026, including removal of the duplicate footer links and restoration of Awards & Honors. The two recognition entries are sourced from page 4 of the public 2026 CV: Samsung Ph.D. Scholarship (Mar 2013–Feb 2017) and Silver Prize, Korean Physics Olympiad (2005). No additional deployment workflow is needed. Relative asset URLs support local preview and GitHub Pages.
 
 Sources: existing public homepage at https://sites.google.com/site/jisungcv, the user's latest public 2026 Resume/CV, user-provided public project descriptions, official NAVER LABS articles/videos, and the linked publications. No internal research sources are included.
 
