@@ -56,3 +56,11 @@
   .awards-list li{grid-template-columns:1fr;gap:5px}
   .award-date{font-size:13px}
 }
+
+/* Separate individual contributions from the project overview. */
+.work-contributions{width:100%;margin:4px 0 18px;padding-top:15px;border-top:1px solid var(--line)}
+.work-contributions h4{margin:0 0 10px;font-size:12px;line-height:1.4;font-weight:600;letter-spacing:.5px;color:#354b61}
+.work-contributions ul{padding-left:17px;font-size:13px;line-height:1.65;color:var(--muted)}
+.work-contributions li+li{margin-top:9px}
+@media(min-width:781px){.work-item>.text-link:not(.secondary-link){margin-top:auto}}
+@media(max-width:540px){.work-contributions ul{font-size:14px}}
