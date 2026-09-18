@@ -4,7 +4,7 @@ Static HTML/CSS portfolio at https://jisung3d.github.io/. No build step, analyti
 
 Open `index.html` locally. Official YouTube players need an internet connection. All paper figures were recovered from the existing public homepage; retain original attribution and replace these preview-resolution figures with the original image files if available.
 
-Content order: biography with Resume/CV links → selected NAVER work and ten live links → grouped research interests and current research → experience → all six publications → public 2026 Resume/CV and contact.
+Content order: biography with public 2026 Resume/CV and contact links → selected NAVER work and ten live links → grouped research interests and current research → experience → all six publications → Awards & Honors. The duplicate document/contact section at the bottom has been removed.
 
 Validation completed: all six publication entries, ten NAVER Map destinations, three official NAVER video embeds, local image/PDF references, and internal anchors are present. The PDF files match the supplied latest public 2026 Resume/CV exactly.
 
@@ -14,7 +14,7 @@ Review coverage for this revision: source checks preserve every existing link an
 
 NAVER Map links were supplied by the owner; direct playback was unavailable in the review browser.
 
-GitHub Pages publishes the root folder from `main` using the repository's existing configuration. For this September 18, 2026 revision, the owner requested a draft branch/PR and preview before publication. Do not merge or deploy this revision without the owner's explicit approval. This supersedes the earlier request to update `main` directly. No additional deployment workflow is needed. Relative asset URLs support local preview and GitHub Pages.
+GitHub Pages publishes the root folder from `main` using the repository's existing configuration. The owner reviewed the draft and explicitly approved publication on September 18, 2026, including removal of the duplicate footer links and restoration of Awards & Honors. The two recognition entries are sourced from page 4 of the public 2026 CV: Samsung Ph.D. Scholarship (Mar 2013–Feb 2017) and Silver Prize, Korean Physics Olympiad (2005). No additional deployment workflow is needed. Relative asset URLs support local preview and GitHub Pages.
 
 Sources: existing public homepage at https://sites.google.com/site/jisungcv, the user's latest public 2026 Resume/CV, user-provided public project descriptions, official NAVER LABS articles/videos, and the linked publications. No internal research sources are included.
 
