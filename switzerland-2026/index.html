@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>스위스 여행 총정리 (2026.10.08–10.14)</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --ink: #1f2a44;
+      --sub: #5d6b88;
+      --accent: #2f6fed;
+      --accent2: #0f8a6c;
+      --line: #dde4f0;
+      --warm: #fff3e8;
+      --warn: #fff4d6;
+      --ok: #edf9f3;
+      --shadow: 0 8px 24px rgba(31,42,68,.08);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", "Noto Sans KR", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 24px; }
+    .hero {
+      background: linear-gradient(135deg, #2f6fed 0%, #6f8fff 100%);
+      color: white;
+      padding: 36px;
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      width: 220px;
+      height: 220px;
+      background: rgba(255,255,255,.12);
+      border-radius: 50%;
+    }
+    .hero h1 { margin: 0 0 8px; font-size: 34px; }
+    .hero p { margin: 6px 0; opacity: .95; }
+    .pillrow { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .pill {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.18);
+      font-size: 14px;
+      backdrop-filter: blur(6px);
+    }
+    .grid { display: grid; gap: 18px; margin-top: 20px; }
+    .grid-2 { grid-template-columns: 1.2fr .8fr; }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+    .card h2, .card h3 { margin: 0 0 12px; }
+    .muted { color: var(--sub); }
+    .kpi { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+    .kpi .box {
+      background: rgba(255,255,255,.14);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .kpi .box strong { display: block; font-size: 20px; margin-bottom: 4px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--sub); font-weight: 700; background: #f9fbff; }
+    tr:last-child td { border-bottom: none; }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #eef4ff;
+      color: var(--accent);
+      font-weight: 700;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    .callout { padding: 14px 16px; border-radius: 14px; margin-top: 12px; }
+    .ok { background: var(--ok); }
+    .warm { background: var(--warm); }
+    .warn { background: var(--warn); }
+    ul.check, ul.links, ul.simple { margin: 0; padding-left: 18px; }
+    ul.check li, ul.links li, ul.simple li { margin: 8px 0; }
+    .day {
+      border-left: 4px solid var(--accent);
+      padding-left: 14px;
+      margin: 18px 0;
+    }
+    .day h3 { margin-bottom: 6px; }
+    .cost-total {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--accent2);
+    }
+    .subgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 28px;
+      color: var(--sub);
+      font-size: 13px;
+      text-align: center;
+    }
+    @media (max-width: 900px) {
+      .grid-2, .grid-3, .subgrid, .kpi { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>🇨🇭 스위스 여행 총정리</h1>
+      <p><strong>기간:</strong> 2026.10.08(목) ~ 2026.10.14(수, 한국 도착)</p>
+      <p><strong>형태:</strong> 5박 7일 · 3인 여행 · 기차 중심 자유여행 · 루체른 2박 + 그린델발트 3박</p>
+      <p><strong>핵심 컨셉:</strong> 호텔은 2곳만 · 이동은 기차 위주 · 어머님 동행 · 융프라우요흐는 날씨 좋은 날 1회</p>
+      <div class="pillrow">
+        <span class="pill">대한항공 직항</span>
+        <span class="pill">기차 중심 일정</span>
+        <span class="pill">Swiss Half Fare Card 추천</span>
+        <span class="pill">SBB Mobile 필수</span>
+        <span class="pill">조식 포함 호텔 2곳</span>
+      </div>
+      <div class="kpi">
+        <div class="box"><strong>459만원</strong><span>항공 3인 총액</span></div>
+        <div class="box"><strong>283.8만원</strong><span>루체른 호텔 2박 2실</span></div>
+        <div class="box"><strong>416.8만원</strong><span>그린델발트 호텔 3박 2실</span></div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>✈️ 항공편 요약</h2>
+        <table>
+          <thead>
+            <tr><th>구간</th><th>편명</th><th>시간</th><th>비행시간</th><th>비고</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ICN → ZRH</td>
+              <td>KE917</td>
+              <td>10/08(목) 11:05 → 17:25</td>
+              <td><strong>13시간 20분</strong></td>
+              <td>B787-10 · 일반석(U)</td>
+            </tr>
+            <tr>
+              <td>ZRH → ICN</td>
+              <td>KE918</td>
+              <td>10/13(화) 19:30 → 10/14(수) 14:10</td>
+              <td><strong>11시간 40분</strong></td>
+              <td>B787-10 · 일반석(Q)</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="callout ok"><strong>포인트:</strong> 첫날 저녁 루체른 이동 가능, 마지막 날도 그린델발트에서 여유 있게 공항 이동 가능.</div>
+      </div>
+
+      <div class="card">
+        <h2>🏨 숙소 확정</h2>
+        <table>
+          <thead>
+            <tr><th>도시</th><th>호텔</th><th>일정</th><th>비고</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>루체른</td>
+              <td>AMERON Luzern Hotel Flora</td>
+              <td>10/08~10/10 (2박)</td>
+              <td>2실 · 조식 포함 · 총 2,838,236원</td>
+            </tr>
+            <tr>
+              <td>그린델발트</td>
+              <td>Sunstar Hotel Grindelwald</td>
+              <td>10/10~10/13 (3박)</td>
+              <td>2실 · 조식 포함 · CHF 2,409.76 (약 4,168,000원)</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="callout warm"><strong>Sunstar 메모:</strong> 그린델발트역 ↔ 호텔 무료 셔틀 제공. 도착 최소 30분 전 연락 권장.</div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>💰 비용 현황</h2>
+        <table>
+          <thead>
+            <tr><th>항목</th><th>금액</th><th>상태</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>대한항공 직항 항공권 (3인)</td><td>4,590,000원</td><td>예약 완료</td></tr>
+            <tr><td>AMERON Luzern Hotel Flora (2박 2실)</td><td>2,838,236원</td><td>예약 완료</td></tr>
+            <tr><td>Sunstar Hotel Grindelwald (3박 2실)</td><td>약 4,168,000원</td><td>예약 완료</td></tr>
+            <tr><td><strong>현재 확정 합계</strong></td><td><strong>11,596,236원</strong></td><td><strong>확정</strong></td></tr>
+          </tbody>
+        </table>
+        <p class="muted" style="margin-top:14px;">미확정: 현지 교통, 산악열차/곤돌라, 식비, 간식, 보험, 소액 쇼핑.</p>
+        <div class="callout ok"><strong>예상 총액 감각:</strong> 이미 확정 비용이 패키지보다 훨씬 호화로운 느낌은 아니고, “상급 자유여행” 수준.</div>
+      </div>
+
+      <div class="card">
+        <h2>🚆 교통 전략 (핵심)</h2>
+        <p><span class="tag">추천</span> <strong>Swiss Half Fare Card</strong> (CHF 150/인 × 3명 = CHF 450)</p>
+        <ul class="check">
+          <li><strong>SBB Mobile 앱</strong> 설치 + SwissPass 계정 생성</li>
+          <li><strong>Swiss Half Fare Card</strong> 구매 (시작일: 2026-10-08)</li>
+          <li><strong>Saver Day Pass</strong>는 10/10, 10/13 장거리 이동일 가격 비교 후 유리하면 구매</li>
+          <li><strong>Swiss Travel Pass</strong>는 이번 일정에는 과투자 가능성 높음</li>
+          <li><strong>융프라우요흐</strong>는 지금 예약하지 말고 10/5~10/8 사이 날씨 보고 결정</li>
+        </ul>
+        <div class="callout warn"><strong>주의:</strong> Jungfraujoch는 5/1~10/31 좌석예약 의무 시즌. 가장 맑은 날에 가기 위해 날짜를 너무 일찍 확정하지 않는 것이 포인트.</div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:20px;">
+      <h2>🗓️ 최종 추천 일정 (기차 중심)</h2>
+
+      <div class="day">
+        <h3>Day 1 · 10/08(목) — 취리히 도착 → 루체른 이동</h3>
+        <p><strong>추천 흐름:</strong> ZRH 도착 → 공항역에서 기차 탑승 → 루체른 도착 → AMERON 체크인 → 저녁 산책 & 가벼운 식사</p>
+        <p><strong>이동 팁:</strong> 취리히공항 ↔ 루체른은 직행/간단 환승으로 약 1시간대. 비행 지연 변수 때문에 특정 열차 고정 티켓보다는 유연한 표가 편함.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 2 · 10/09(금) — 루체른 + 리기산</h3>
+        <p><strong>추천 코스:</strong> 루체른 선착장 → 유람선으로 Vitznau → 산악열차로 Rigi Kulm → 하산은 Arth-Goldau 방향 → 기차로 루체른 복귀</p>
+        <p><strong>대체안:</strong> 날씨가 흐리면 리기산 생략하고 루체른 호수/구시가지/카펠교 중심 일정으로 변경.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 3 · 10/10(토) — 루체른 → 그린델발트 (기차 자체가 관광)</h3>
+        <p><strong>추천 흐름:</strong> 호텔 조식 → 체크아웃 → <strong>Luzern–Interlaken Express</strong> 탑승 → Interlaken Ost 환승 → Grindelwald 도착 → Sunstar 셔틀 → 체크인</p>
+        <p><strong>추천 열차 감각:</strong> 11시 전후 출발이 여유롭고 좋음. 루체른–인터라켄 구간은 파노라마 열차 느낌이라 좌석 예약을 고려할 만함.</p>
+        <p><strong>오후 일정:</strong> 마을 산책, 카페, 스파, 저녁 식사 정도로 여유롭게.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 4 · 10/11(일) — 융프라우요흐 <span class="tag">또는</span> 라우터브루넨/벵엔</h3>
+        <p><strong>원칙:</strong> 10/11과 10/12 중 더 맑은 날을 <strong>융프라우요흐</strong>에 배정.</p>
+        <p><strong>융프라우요흐 흐름:</strong> Sunstar 앞 버스/교통 → Grindelwald Terminal → Eiger Express → Eigergletscher → Jungfraujoch</p>
+        <p><strong>정상에서:</strong> Sphinx 전망대, 아이스 팰리스, 빙하 전망, 점심.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 5 · 10/12(월) — First <span class="tag">또는</span> 라우터브루넨 + 벵엔</h3>
+        <p><strong>날씨 아주 좋음:</strong> First 추천. 호텔 바로 맞은편 Firstbahn이라 동선 최고.</p>
+        <p><strong>날씨 애매함:</strong> 라우터브루넨 마을 + 벵엔 카페/산책 추천. 모두 기차로 편하게 이동 가능.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 6 · 10/13(화) — 그린델발트 → 취리히공항 → 귀국</h3>
+        <p><strong>추천 흐름:</strong> 느긋한 조식 → 체크아웃 → Sunstar 무료 셔틀로 역 이동 → 기차로 취리히공항 → 면세/식사 → 19:30 출국</p>
+        <p><strong>포인트:</strong> 취리히 시내 욕심내지 말고 공항으로 넉넉하게 이동하는 것이 훨씬 편함.</p>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>📱 꼭 깔아갈 앱</h2>
+        <ul class="links">
+          <li><a href="https://www.sbb.ch/en/travel-information/apps/sbb-mobile.html" target="_blank">SBB Mobile</a> — 스위스 기차/버스/배 검색 및 티켓 구매</li>
+          <li><a href="https://www.sbb.ch/en/offers/buy-swiss-half-fare-card" target="_blank">Swiss Half Fare Card 구매 페이지</a></li>
+          <li><a href="https://www.jungfrau.ch/en-gb/arriving/" target="_blank">Jungfrau 공식 페이지</a> — 융프라우 좌석예약/이동 안내</li>
+          <li><a href="https://www.zentralbahn.ch/en/experience/leisure/luzern-interlaken-express" target="_blank">Luzern–Interlaken Express</a></li>
+          <li><a href="https://www.rigi.ch/en/inform/prices" target="_blank">Rigi 가격 안내</a></li>
+          <li><a href="https://grindelwald.sunstar.ch/en/faq/" target="_blank">Sunstar Grindelwald FAQ</a> — 무료 셔틀, Guest Card 등</li>
+          <li><a href="https://www.jungfrau.ch/en-gb/grindelwaldfirst/" target="_blank">Grindelwald First 공식 페이지</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🎬 여행 준비용 유튜브 링크</h2>
+        <ul class="links">
+          <li><a href="https://www.youtube.com/results?search_query=Lucerne+Switzerland+travel+guide" target="_blank">YouTube: Lucerne travel guide</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=Rigi+Kulm+Switzerland+travel" target="_blank">YouTube: Rigi Kulm / Mount Rigi</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=Luzern+Interlaken+Express" target="_blank">YouTube: Luzern–Interlaken Express</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=Jungfraujoch+Top+of+Europe+travel+guide" target="_blank">YouTube: Jungfraujoch Top of Europe</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=Grindelwald+First+travel+guide" target="_blank">YouTube: Grindelwald First</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=Lauterbrunnen+Wengen+travel+guide" target="_blank">YouTube: Lauterbrunnen & Wengen</a></li>
+        </ul>
+        <div class="callout warm"><strong>팁:</strong> 출발 전에 각 장소 영상을 1~2개씩만 봐도 현장 동선 감이 확 좋아짐.</div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>🧥 복장 가이드</h2>
+        <ul class="simple">
+          <li><strong>기본:</strong> 서울 늦가을 복장 기준 + 레이어링</li>
+          <li><strong>루체른/그린델발트 마을:</strong> 긴팔 + 니트/플리스 + 경량패딩</li>
+          <li><strong>리기산/First:</strong> 히트텍 + 플리스 + 경량패딩 + 방풍 재킷</li>
+          <li><strong>융프라우요흐:</strong> 히트텍 + 플리스/니트 + 패딩 + 장갑 + 비니 + 선글라스</li>
+          <li><strong>어머님:</strong> 조금 더 도톰한 숏패딩 추천</li>
+          <li><strong>신발:</strong> 접지력 좋은 방수 워킹화/트레킹화</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🎒 꼭 챙길 것 체크리스트</h2>
+        <ul class="check">
+          <li>여권 / 항공 e-ticket / 호텔 예약서</li>
+          <li>SBB Mobile 앱 / Swiss Half Fare Card</li>
+          <li>해외결제 카드 2장 이상 + 소액 현금 CHF 150~200</li>
+          <li>스위스용 플러그 어댑터 (J형) / 충전기 / 보조배터리</li>
+          <li>경량패딩 / 방풍재킷 / 장갑 / 비니 / 핫팩</li>
+          <li>비건 컵라면 3~4개 / 김 / 누룽지 (비상식)</li>
+          <li>상비약 / 멀미약 / 소화제 / 감기약</li>
+          <li>선글라스 / 립밤 / 핸드크림</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h2>🍽️ 음식 & 쇼핑 메모</h2>
+        <ul class="simple">
+          <li><strong>음식 추천:</strong> 치즈 퐁뒤, 라클렛, 뢰스티, Zürcher Geschnetzeltes, Älplermagronen</li>
+          <li><strong>조식 포함</strong>이라 식비는 생각보다 절약 가능</li>
+          <li><strong>쇼핑 추천:</strong> 초콜릿, Victorinox, 목각 소(Trauffer), Coop/Migros 식료품</li>
+          <li><strong>팁 문화:</strong> 미국처럼 강하지 않음. 식당은 반올림 정도면 충분</li>
+          <li><strong>현금:</strong> 카드가 메인, 소액 현금만 준비</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>✅ 출발 전 해야 할 일</h2>
+        <ol style="margin:0; padding-left:20px;">
+          <li>SBB Mobile 설치 및 SwissPass 계정 생성</li>
+          <li>Swiss Half Fare Card 3인 구매 (시작일 10/08)</li>
+          <li>10/10, 10/13 장거리 이동일 Saver Day Pass 가격 확인</li>
+          <li>Sunstar에 10/10 도착 시간 전달 (역 픽업 셔틀)</li>
+          <li>10/05~10/08 사이 융프라우/First 날씨 확인 후 날짜 확정</li>
+          <li>비건 컵라면, 핫팩, 방한 소품 최종 점검</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="footer">
+      이 문서는 현재까지 대화에서 확정된 예약 정보와 추천 동선을 기준으로 정리한 개인 여행 요약본입니다.<br/>
+      공식 교통/날씨/산악운행 정보는 출발 직전 SBB, Jungfrau, Rigi 공식 페이지에서 한 번 더 확인하는 것을 권장합니다.
+    </div>
+  </div>
+</body>
+</html>
